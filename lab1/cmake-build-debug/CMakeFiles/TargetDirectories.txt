@@ -1,0 +1,3 @@
+C:/Users/Zachar/Desktop/threads/lab1/cmake-build-debug/CMakeFiles/lab1.dir
+C:/Users/Zachar/Desktop/threads/lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Zachar/Desktop/threads/lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
