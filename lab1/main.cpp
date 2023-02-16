@@ -3,7 +3,7 @@
 #include <omp.h>
 
 
-void randomiseMatrix(int **matrix, int n, int m) {
+void fillMatrix(int **matrix, int n, int m) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             matrix[i][j] = rand() % 100;
@@ -11,14 +11,6 @@ void randomiseMatrix(int **matrix, int n, int m) {
     }
 }
 
-void print(int **matrix, int n, int m) {
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            std::cout << matrix[i][j] << "\t";
-        }
-        std::cout << std::endl;
-    }
-}
 
 int main(int argc, char **argv) {
     int n1 = 1000;
@@ -38,8 +30,8 @@ int main(int argc, char **argv) {
         matrix2[i] = new int[m2];
     }
 
-    randomiseMatrix(matrix1, n1, m1);
-    randomiseMatrix(matrix2, n2, m2);
+    fillMatrix(matrix1, n1, m1);
+    fillMatrix(matrix2, n2, m2);
 
     int **result = new int *[n1];
     for (int i = 0; i < n1; i++) {

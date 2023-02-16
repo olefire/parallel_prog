@@ -28,7 +28,8 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/Zachar/Desktop/threads"
+    "last_opened_file_path": "C:/Users/Zachar/Desktop/threads",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -40,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676571253456</updated>
       <workItem from="1676571254706" duration="18000" />
+      <workItem from="1676571404792" duration="386000" />
     </task>
     <servers />
   </component>
